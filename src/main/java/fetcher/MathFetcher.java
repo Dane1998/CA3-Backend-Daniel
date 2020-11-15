@@ -18,7 +18,7 @@ import utils.HttpUtils;
  */
 public class MathFetcher {
     
-    private static final String MathAPI = "http://numbersapi.com/#random/math?json";
+    private static final String MathAPI = "https://aboutnumber.p.rapidapi.com/getNumberInfo";
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     
     public static String fetchMath (ExecutorService es) throws InterruptedException, ExecutionException, TimeoutException{

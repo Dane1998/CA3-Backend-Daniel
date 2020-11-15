@@ -18,6 +18,7 @@ public class MathDTO {
         this.found = found;
         this.type = type;
     }
+   
 
     public MathDTO() {
     }
